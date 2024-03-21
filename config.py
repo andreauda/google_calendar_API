@@ -1,0 +1,5 @@
+server =        'server_name'
+port =          'port'
+username_DB =   'user'
+password_DB =   'passowrd'
+database =      'database_name'
