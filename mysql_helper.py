@@ -40,7 +40,7 @@ def mysql_engine(server, port, database, username, password):
                                         format(username, password, server, port, database)
                                         , pool_pre_ping=True)
     
-    except Exception as ex:
+    except Exception as err:
         logging.exception(err)
         raise
         
