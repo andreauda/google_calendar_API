@@ -1,11 +1,7 @@
 from __future__ import print_function
 
 import datetime
-import os.path
 
-from google.auth.transport.requests import Request
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
@@ -15,7 +11,7 @@ from google.oauth2 import service_account
 
 
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
-path = 'C://Users//Administrator//Desktop//Scripts//Google Calendar//v0//'
+path = 'C://Users//Administrator//Desktop//Scripts//Google Calendar//'
 SERVICE_ACCOUNT_FILE = path+'credentials.json'
 
 
